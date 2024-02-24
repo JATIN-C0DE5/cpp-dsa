@@ -58,17 +58,17 @@ using namespace std;
 
 
 
-int main(){
-    int n=0;
-    cin>>n;
-    string a;
-    for(int i=0;i<=30;i++){
-        int check=pow(2,i);
-        if(check==n){
-            a="True";
-            break;
-        }else{
-            a="False";
-        }
-    }cout<<a<<endl;
-}
+// int main(){
+//     int n=0;
+//     cin>>n;
+//     string a;
+//     for(int i=0;i<=30;i++){
+//         int check=pow(2,i);
+//         if(check==n){
+//             a="True";
+//             break;
+//         }else{
+//             a="False";
+//         }
+//     }cout<<a<<endl;
+// }
