@@ -3,7 +3,10 @@ using namespace std;
 
 void PrintArr(int arr[],int size){
     for(int i=0;i<size;i++){
-        cout<<arr[i]<<",";
+        cout<<arr[i];
+        if(i<size-1){
+            cout<<",";
+        }
     }
     cout<<endl;
 }
@@ -15,6 +18,7 @@ void ReverseArr(int Rev[],int size){
     }
     PrintArr(ArrNew,size);
 }
+
 //.................OR...............//
 
 // void ReverseArr(int Rev[],int size){
