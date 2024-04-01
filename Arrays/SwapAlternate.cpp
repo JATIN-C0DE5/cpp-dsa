@@ -20,6 +20,7 @@ void Swaping(int arr[], int size){
 int main(){
     int n=6;
     int Arra[n]={1,2,3,4,5,6};
+    cout<<"Old array is: "<<endl;
     PrintArr(Arra,n);
     cout<<"new array is:"<<endl;
     Swaping(Arra,n);

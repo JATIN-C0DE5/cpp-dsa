@@ -90,22 +90,22 @@ using namespace std;
 
 
 //..............................................SUM OF ALL ELEMENTS IN AN ARRAY
-int sumA(int arr[],int size){
-    int sum = 0;
-    for(int i=0;i<size;i++){
-        sum+=arr[i];
-    }
-    return sum;
-}
-int main(){
-    int n;
-    cout<<endl<<"Enter size: ";
-    cin>>n;
-    int arr[100];
-    cout<<"Enter elements: ";
-    for(int i=0 ;i<n;i++){
-        cin>>arr[i];
-    }
-    cout<<endl<<endl;
-    cout<<"Sum is : "<<sumA(arr,n);
-}
+// int sumA(int arr[],int size){
+//     int sum = 0;
+//     for(int i=0;i<size;i++){
+//         sum+=arr[i];
+//     }
+//     return sum;
+// }
+// int main(){
+//     int n;
+//     cout<<endl<<"Enter size: ";
+//     cin>>n;
+//     int arr[100];
+//     cout<<"Enter elements: ";
+//     for(int i=0 ;i<n;i++){
+//         cin>>arr[i];
+//     }
+//     cout<<endl<<endl;
+//     cout<<"Sum is : "<<sumA(arr,n);
+// }
